@@ -21,6 +21,7 @@ sortButton.click(function() {
   addListItem("enrolledStudents", {
     name: name,
     house: chooseRandomHouse()
+    
   })
 })
 
