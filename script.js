@@ -5,7 +5,7 @@ var enrolledStudentList = $(".enrolled-students")
 var houses = [
   "Ravenclaw",
   "Hufflepuff",
-  "Gryfindor",
+  "Gryffindor",
   "Slytherin"
 ]
 
@@ -28,7 +28,7 @@ sortButton.click(function() {
 onNewListItem("enrolledStudents", function(student) {
   console.log("student", student.name, student.house)
 
-  var newStudentElement = $("<div class='enrolled-students'>" + student.name + student.house + "</div>")
+  var newStudentElement = $("<div class='enrolled-students'>" + "name: " student.name + ", house: " + student.house + "</div>")
 
 
   enrolledStudentList.append(newStudentElement)
