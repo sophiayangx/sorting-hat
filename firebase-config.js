@@ -1,7 +1,7 @@
 var firebaseConfig = {
-  apiKey: "",
-  authDomain: "domain-here.firebaseapp.com",
-  databaseURL: "https://domain-here.firebaseio.com"	
+  apiKey: "AIzaSyDRGbNT8L53NZCLe5eSIynxe6rx405HY9o",
+  authDomain: "sortinghat-7c6c8.firebaseapp.com",
+  databaseURL: "https://sortinghat-7c6c8.firebaseio.com",
 };
 
 firebase.initializeApp(firebaseConfig);
