@@ -27,8 +27,8 @@ sortButton.click(function() {
 onNewListItem("enrolledStudents", function(student) {
   console.log("student", student)
 
-  var newStudentElement = $("<div></div>")
-  // what here?
+  var newStudentElement = $("<div> </div>")
+
 
   enrolledStudentList.append(newStudentElement)
 })
